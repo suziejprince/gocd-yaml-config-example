@@ -6,7 +6,7 @@ environments:
       DEPLOYMENT: testing
     secure_variables:
       ENV_PASSWORD: "s&Du#@$xsSa"
-pipelines: # tells plugin that here are pipelines by name
+  pipelines: # tells plugin that here are pipelines by name
   pipe2:
     group: rich
     label_template: "${mygit[:8]}"
