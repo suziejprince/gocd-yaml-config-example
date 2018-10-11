@@ -28,7 +28,7 @@ pipelines: # tells plugin that here are pipelines by name
         pipeline: pipe2
         stage: test
     stages:
-      - build: # name of stage
+      - test: # name of stage
           clean_workspace: true
           approval:
             type: manual
