@@ -32,8 +32,6 @@ pipelines: # tells plugin that here are pipelines by name
           clean_workspace: true
           approval:
             type: manual
-            roles:
-              - manager
           jobs:
             csharp: # name of the job
               run_instances: 3
